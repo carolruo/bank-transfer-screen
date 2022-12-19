@@ -1,20 +1,13 @@
 import './App.css';
+import TextField from './components/TextField';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          OLA
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <TextField label="Data de Início" placeholder="Digite a data de início"/>
+        <TextField label="Data de Fim" placeholder="Digite a data de fim"/>
+        <TextField label="Nome do Operador Transacionado" placeholder="Digite o nome do operador"/>
       </header>
     </div>
   );
